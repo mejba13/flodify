@@ -21,10 +21,11 @@ html {
 }
 
 button {
-    padding: 1.5rem 6rem;
-    font-size: 2rem;
+    min-width: 300px;
+    padding: 2rem 6rem;
+    font-size: 2.5rem;
     border-radius: 1rem;
-    background: #cf564d;
+    background: #3f4e4f;
     border: 0;
     cursor: pointer;
     color: #fff;
@@ -32,15 +33,15 @@ button {
 }
 
 button:hover {
-    background: #ba4d45;
+    background: #384647;
 }
 
 
 /* Nav Section with HERO */
 
 .main-head {
-    background: #272727;
-    color: #fff;
+    background: #2c3639;
+    color: #dcd7c9;
     font-size: 2rem;
 }
 
@@ -69,7 +70,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    color: #ba4d45;
+    color: #fff;
 }
 
 #logo {
@@ -77,7 +78,7 @@ nav ul li:hover {
 }
 
 .intro {
-    background: linear-gradient(rgba(155, 68, 68, 0.5), transparent), url("../img/intro-img.jpg");
+    background: linear-gradient(rgba(44, 54, 57, 0.5), transparent), url("https://i.ibb.co/4RdX8b5/intro-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,14 +97,15 @@ nav ul li:hover {
 }
 
 .intro p {
-    padding: 2rem 5rem;
+    padding: 3rem 5rem;
     font-weight: bold;
-    color: #cf564d;
+    color: #dcd7c9;
+    font-size: 2.8rem;
 }
 
 footer {
-    background: #272727;
-    color: #fff;
+    background: #2c3639;
+    color: #dcd7c9;
     font-size: 20px;
 }
 
@@ -134,7 +136,7 @@ footer ul li i {
 }
 
 footer ul li:hover {
-    color: #ba4d45;
+    color: #fff;
 }
 
 footer h5 {
@@ -157,6 +159,11 @@ footer h5 {
     }
     #logo {
         padding: 2rem;
+    }
+    button {
+        min-width: 150px;
+        padding: 1.5rem 6rem;
+        font-size: 2.2rem;
     }
     footer {
         text-align: center;
